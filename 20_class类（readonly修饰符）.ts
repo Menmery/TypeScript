@@ -25,6 +25,7 @@ class Person {
 
 // --------------------------------
 
+// 在接口中
 // interface IPerson {
 //   readonly name: string
 // }
@@ -33,6 +34,7 @@ class Person {
 //   name: 'jack'
 // }
 
+// 在对象中
 let obj: { readonly name: string } = {
   name: 'jack'
 }
