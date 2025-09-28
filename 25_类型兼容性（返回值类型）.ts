@@ -13,6 +13,7 @@ f6 = f5
 f5 = f6
 
 // 对象类型：
+// 返回值多的可以赋值给少的
 type F7 = () => { name: string }
 type F8 = () => { name: string; age: number }
 
